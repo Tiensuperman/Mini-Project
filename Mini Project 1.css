@@ -1,3 +1,72 @@
-*{
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&family=Russo+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: cyan;
+}
+
+header {
+  background-color: pink;
+  height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+h1{
+    font-size: 72px;
+}
+
+a {
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.subheader{
+    font-size: 36px;
+    margin: 16px 0 24px 0;
+}
+
+.row{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: aqua;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.logo {
+  width: 300px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding-left: 16px;
 }
