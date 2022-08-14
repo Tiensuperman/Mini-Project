@@ -126,7 +126,8 @@ img {
 
 #contact {
   background-color: #dce9ff;
-  display: flex;      
+  display: flex;  
+  flex-direction: column;    
 }
 
 form {
