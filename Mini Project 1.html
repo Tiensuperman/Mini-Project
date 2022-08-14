@@ -37,40 +37,50 @@
     <main>
       <section id="about">
         <h2>About</h2>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-            laudantium odit. Ratione nam totam dolorum, consequuntur ut, fugit
-            adipisci iste quod eligendi, corporis quibusdam dolores?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-            laudantium odit. Ratione nam totam dolorum, consequuntur ut, fugit
-            adipisci iste quod eligendi, corporis quibusdam dolores?
-          </p>
-        </div>
-        <figure>
-          <img src="./assets/about.jpg" alt="" />
-        </figure>
-      </section>
-
-      <section id="discord">
-        <h2>Discord</h2>
-        <figure>
-          <img src="./assets/discord.png" alt="" />
-          <div>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
-              possimus quae molestias enim corrupti ipsum totam. Dolorem aliquid
-              voluptas fugit earum vitae distinctio nihil quibusdam.
+        <div class="row">
+        <div class="section__description">
+          <div class="section__description--wrapper">
+            <p class="section__description--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Molestias, laudantium odit. Ratione nam totam dolorum,
+              consequuntur ut, fugit adipisci iste quod eligendi, corporis
+              quibusdam dolores?
             </p>
-            <p>
+            <p class="section__description--para">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Molestias, laudantium odit. Ratione nam totam dolorum,
               consequuntur ut, fugit adipisci iste quod eligendi, corporis
               quibusdam dolores?
             </p>
           </div>
+        </div>
+          <figure class="about__image--wrapper">
+            <img src="./assets/about.jpg" alt="" />
+          </figure>
+        </div>
+      </section>
+
+      <section id="discord">
+        <h2>Discord</h2>
+        <div class="row">
+        <div class="section__description">
+        <figure>
+          <img src="./assets/discord.png" class="about__image--wrapper" alt="" />
+          <div class="section__description--wrapper">
+            <p class="section__description--para">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
+              possimus quae molestias enim corrupti ipsum totam. Dolorem aliquid
+              voluptas fugit earum vitae distinctio nihil quibusdam.
+            </p>
+            <p class="section__description--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Molestias, laudantium odit. Ratione nam totam dolorum,
+              consequuntur ut, fugit adipisci iste quod eligendi, corporis
+              quibusdam dolores?
+            </p>
+          </div>
+        </div>
+        </div>
         </figure>
       </section>
 
@@ -78,20 +88,21 @@
         <h2>Contact</h2>
         <form action="">
           <label>Email</label>
-          <input type="text" placeholder="ddtien@outlook.com" />
+          <input type="email" placeholder="ddtien@outlook.com" />
           <label>Message</label>
-          <textarea type="text" placeholder="ddtien@outlook.com"> </textarea>
+          <textarea type="text" placeholder="Cool Website Lets Get Connected"> </textarea>
+          <button>Contact Us</button>
         </form>
       </section>
     </main>
 
     <footer>
-      <img src="./assets/FES.svg" alt="" />
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href="">Courses</a>
+      <img src="./assets/FES.svg" class="logo" alt="" />
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="">Courses</a>
       </div>
       <p>Copyright Frontend Simplified</p>
     </footer>
